@@ -55,8 +55,8 @@ fun TitleText(title: String) {
 }
 
 @Composable
-fun SingerText(title: String) {
-    Text(title, fontSize = 20.sp)
+fun SingerText(singer: String) {
+    Text(singer, fontSize = 20.sp)
 }
 
 @Composable
