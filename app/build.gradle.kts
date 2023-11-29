@@ -54,6 +54,7 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("androidx.compose.runtime:runtime-livedata:1.5.4")
     implementation ("com.google.code.gson:gson:2.8.9")
+    implementation("io.coil-kt:coil-compose:2.5.0")
 
     implementation ("androidx.compose.runtime:runtime:1.5.4")
     implementation ("androidx.compose.ui:ui:1.5.4")
