@@ -132,7 +132,7 @@ fun SongItem(index: Int, song: Song) {
                 .padding(8.dp),
             visible = expanded
         ) {
-            LyricsText(" ${song.lyrics}")
+            song.lyrics?.let { LyricsText(it) }
         }
     }
 }
