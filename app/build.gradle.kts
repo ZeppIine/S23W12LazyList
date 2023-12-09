@@ -56,6 +56,8 @@ dependencies {
     implementation ("com.google.code.gson:gson:2.8.9")
     implementation("io.coil-kt:coil-compose:2.5.0")
 
+    implementation("androidx.navigation:navigation-compose:2.7.5")
+
     implementation ("androidx.compose.runtime:runtime:1.5.4")
     implementation ("androidx.compose.ui:ui:1.5.4")
     implementation ("androidx.compose.material:material:1.5.4")
